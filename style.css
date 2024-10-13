@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+header {
+  color: white;
+  background-color: #FF69B4;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+header section {
+  align-items: center;
+  display: flex;
+}
+header section img {
+  height: 70%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav a:hover {
+  color: #75073e;
+}
+
+main .rosaClaro {
+  background-color: #FFD9EC;
+  display: flex;
+  height: 45vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .rosaClaro p {
+  display: flex;
+  width: 45vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+main .rosaClaro img {
+  width: 20%;
+}
+main .rosaChoque {
+  background-color: #FF69B4;
+  display: flex;
+  height: 45vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .rosaChoque p {
+  display: flex;
+  width: 35vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+main .rosaChoque img {
+  width: 35%;
+}
+main .imagensInformativas {
+  background-color: #FFD9EC;
+  display: flex;
+  height: 30vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .imagensInformativas img {
+  height: 25vh;
+}
+
+footer {
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .logos {
+  display: flex;
+  justify-content: space-around;
+  width: 15vw;
+}
+footer .logos img {
+  height: 5vh;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+footer img {
+  height: 10vh;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #75073e;
+}/*# sourceMappingURL=style.css.map */
