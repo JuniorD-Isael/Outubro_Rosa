@@ -116,4 +116,83 @@ footer a {
 }
 footer a:hover {
   color: #75073e;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  header nav ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+  main .rosaClaro, main .rosaChoque {
+    flex-direction: column;
+    height: auto;
+  }
+  main .rosaClaro p, main .rosaChoque p {
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  main .rosaClaro img, main .rosaChoque img {
+    width: 60%;
+  }
+  main .imagensInformativas {
+    flex-direction: column;
+    height: auto;
+  }
+  main .imagensInformativas img {
+    height: auto;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  footer .logos {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  footer ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 480px) {
+  header section img {
+    height: 50%;
+  }
+  header nav ul {
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .rosaClaro, main .rosaChoque {
+    height: 70vh;
+  }
+  main .rosaClaro img, main .rosaChoque img {
+    width: 80%;
+  }
+  main .imagensInformativas img {
+    width: 60%;
+  }
+  footer .logos img {
+    height: 4vh;
+  }
+  footer ul {
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+    border: solid tomato 5px;
+    text-align: center;
+  }
+  footer img {
+    height: 8vh;
+  }
+}
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=style.css.map */
